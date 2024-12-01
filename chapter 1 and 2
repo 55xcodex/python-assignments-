@@ -1,1 +1,67 @@
+for i in range(4):
+    print('*' * 19)
+
+for i in range(1):
+    print('*' * 19)
+    for i in range(2):
+        print('*')
+        for i in range(1):
+            print('x' * 19)
+
+numerator= 512-282
+denominator= 47 * 48+5
+print(numerator/denominator)
+
+number=eval(print('enter a number'))
+print('The square of number:' , number * number)
+
+weight=eval(input('enter a digit in kilogarams'))
+print('Your weight in pounds:' , weight * 2.2)
+
+digit1=eval(input('enter digit 1'))
+digit2=eval(input('enter digit 2'))
+digit3=eval(input('enter digit 3'))
+total= digit1 + digit2 + digit3
+average= total/3
+print(total)
+print(average)
+
+price=eval(input('enter price of meal'))
+percentage=eval(input('enter tip percentage'))
+tip=(price * percentage/100)
+total=(tip + price)
+print('total is:' , total)
+
+x=eval(input('enter a number'))
+answer=(x , 2 * x , 3* x , 4 * x , 5 * x)
+print(* answer , sep='---')
+
+for i in range(100):
+    print('wambui kamau')
+
+for i in range(100):
+    print(end='wambui kamau')
+
+for i in range(100):
+    print(i+1 , 'wmabui kamau')
+
+for i in range(2,100,3):
+    print(i)
+
+for i in range(1,100,-2):
+    print(i)
+
+name=(input('eneter your name'))
+times=(input('enter how many times'))
+for i in range(times):
+    print(name)
+
+height=eval(input('enter height'))
+length=eval(input('enter length'))
+for i in range(height):
+    print('*' * length)
+
+for i in range(4):
+    print('*' * (i+1))
+
 
