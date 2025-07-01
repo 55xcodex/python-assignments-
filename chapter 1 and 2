@@ -17,7 +17,7 @@ square=number*number
 print('The square of number:' , square)
 
 weight=eval(input('enter a digit in kilogarams'))
-print('Your weight in pounds:' , weight / 2.2)
+print('Your weight in pounds:' , weight * 2.2)
 
 digit1=eval(input('enter digit 1'))
 digit2=eval(input('enter digit 2'))
