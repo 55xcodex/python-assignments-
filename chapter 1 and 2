@@ -13,7 +13,8 @@ denominator= 47 * 48+5
 print(numerator/denominator)
 
 number=eval(print('enter a number'))
-print('The square of number:' , number * number)
+square=number*number
+print('The square of number:' , square)
 
 weight=eval(input('enter a digit in kilogarams'))
 print('Your weight in pounds:' , weight * 2.2)
